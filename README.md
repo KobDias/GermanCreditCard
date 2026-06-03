@@ -182,9 +182,7 @@ O app abrirá em `http://localhost:8501`.
 
 ## 🌐 Link do App Publicado
 
-> **[🚀 Acessar o CreditAI no Streamlit Cloud](https://LINK-DO-SEU-APP.streamlit.app)**
-
-*Substitua o link acima pelo URL gerado após o deploy no Streamlit Community Cloud.*
+> **[🚀 Acessar o CreditAI no Streamlit Cloud](https://germancreditcard.streamlit.app/)**
 
 ---
 
