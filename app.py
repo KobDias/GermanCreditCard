@@ -12,6 +12,7 @@ Se o arquivo não for encontrado, exibe instrução para treinar o notebook prim
 import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib
 import os
 
 # ── Configuração da página ──────────────────────────────────────────────────
@@ -228,7 +229,6 @@ div.stButton > button:hover {
 @st.cache_resource
 def load_model():
     """Carrega o pipeline completo salvo em model/modelo_final.joblib."""
-    import joblib
     model_path = "model/modelo_final.joblib"
     if not os.path.exists(model_path):
         return None, f"Arquivo `{model_path}` não encontrado. Execute o notebook e salve o modelo primeiro."
